@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49D8B991927C80300207F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B981927C80300207F1C /* Foundation.framework */; };
+		C49D8B9B1927C80300207F1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B9A1927C80300207F1C /* CoreGraphics.framework */; };
+		C49D8B9D1927C80300207F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B9C1927C80300207F1C /* UIKit.framework */; };
+		C49D8B9F1927C80300207F1C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B9E1927C80300207F1C /* CoreData.framework */; };
+		C49D8BA51927C80300207F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49D8BA31927C80300207F1C /* InfoPlist.strings */; };
+		C49D8BA71927C80300207F1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BA61927C80300207F1C /* main.m */; };
+		C49D8BAB1927C80300207F1C /* MHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BAA1927C80300207F1C /* MHSAppDelegate.m */; };
+		C49D8BAE1927C80300207F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D8BAC1927C80300207F1C /* Main.storyboard */; };
+		C49D8BB11927C80300207F1C /* SimpleCSVImport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BAF1927C80300207F1C /* SimpleCSVImport.xcdatamodeld */; };
+		C49D8BB41927C80300207F1C /* MHSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BB31927C80300207F1C /* MHSMasterViewController.m */; };
+		C49D8BB71927C80300207F1C /* MHSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BB61927C80300207F1C /* MHSDetailViewController.m */; };
+		C49D8BB91927C80300207F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49D8BB81927C80300207F1C /* Images.xcassets */; };
+		C49D8BC01927C80300207F1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8BBF1927C80300207F1C /* XCTest.framework */; };
+		C49D8BC11927C80300207F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B981927C80300207F1C /* Foundation.framework */; };
+		C49D8BC21927C80300207F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B9C1927C80300207F1C /* UIKit.framework */; };
+		C49D8BC31927C80300207F1C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8B9E1927C80300207F1C /* CoreData.framework */; };
+		C49D8BCB1927C80300207F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49D8BC91927C80300207F1C /* InfoPlist.strings */; };
+		C49D8BCD1927C80300207F1C /* SimpleCSVImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BCC1927C80300207F1C /* SimpleCSVImportTests.m */; };
+		C49D8BD81928150E00207F1C /* NSString+ParsingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8BD71928150E00207F1C /* NSString+ParsingExtensions.m */; };
+		C49D8BDA1928153600207F1C /* KababishMenu.csv in Resources */ = {isa = PBXBuildFile; fileRef = C49D8BD91928153600207F1C /* KababishMenu.csv */; };
+		C49D8C241929913F00207F1C /* KababishServerMenu.csv in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C231929913F00207F1C /* KababishServerMenu.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49D8BC41927C80300207F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D8B8D1927C80300207F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D8B941927C80300207F1C;
+			remoteInfo = SimpleCSVImport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49D8B951927C80300207F1C /* SimpleCSVImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCSVImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D8B981927C80300207F1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C49D8B9A1927C80300207F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C49D8B9C1927C80300207F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C49D8B9E1927C80300207F1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C49D8BA21927C80300207F1C /* SimpleCSVImport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCSVImport-Info.plist"; sourceTree = "<group>"; };
+		C49D8BA41927C80300207F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49D8BA61927C80300207F1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49D8BA81927C80300207F1C /* SimpleCSVImport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCSVImport-Prefix.pch"; sourceTree = "<group>"; };
+		C49D8BA91927C80300207F1C /* MHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSAppDelegate.h; sourceTree = "<group>"; };
+		C49D8BAA1927C80300207F1C /* MHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSAppDelegate.m; sourceTree = "<group>"; };
+		C49D8BAD1927C80300207F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49D8BB01927C80300207F1C /* SimpleCSVImport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCSVImport.xcdatamodel; sourceTree = "<group>"; };
+		C49D8BB21927C80300207F1C /* MHSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSMasterViewController.h; sourceTree = "<group>"; };
+		C49D8BB31927C80300207F1C /* MHSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSMasterViewController.m; sourceTree = "<group>"; };
+		C49D8BB51927C80300207F1C /* MHSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSDetailViewController.h; sourceTree = "<group>"; };
+		C49D8BB61927C80300207F1C /* MHSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSDetailViewController.m; sourceTree = "<group>"; };
+		C49D8BB81927C80300207F1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C49D8BBE1927C80300207F1C /* SimpleCSVImportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCSVImportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D8BBF1927C80300207F1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C49D8BC81927C80300207F1C /* SimpleCSVImportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCSVImportTests-Info.plist"; sourceTree = "<group>"; };
+		C49D8BCA1927C80300207F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49D8BCC1927C80300207F1C /* SimpleCSVImportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCSVImportTests.m; sourceTree = "<group>"; };
+		C49D8BD61928150E00207F1C /* NSString+ParsingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ParsingExtensions.h"; sourceTree = "<group>"; };
+		C49D8BD71928150E00207F1C /* NSString+ParsingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ParsingExtensions.m"; sourceTree = "<group>"; };
+		C49D8BD91928153600207F1C /* KababishMenu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KababishMenu.csv; sourceTree = "<group>"; };
+		C49D8C231929913F00207F1C /* KababishServerMenu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KababishServerMenu.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49D8B921927C80300207F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8B9B1927C80300207F1C /* CoreGraphics.framework in Frameworks */,
+				C49D8B9F1927C80300207F1C /* CoreData.framework in Frameworks */,
+				C49D8B9D1927C80300207F1C /* UIKit.framework in Frameworks */,
+				C49D8B991927C80300207F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8BBB1927C80300207F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8BC01927C80300207F1C /* XCTest.framework in Frameworks */,
+				C49D8BC31927C80300207F1C /* CoreData.framework in Frameworks */,
+				C49D8BC21927C80300207F1C /* UIKit.framework in Frameworks */,
+				C49D8BC11927C80300207F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49D8B8C1927C80300207F1C = {
+			isa = PBXGroup;
+			children = (
+				C49D8BA01927C80300207F1C /* SimpleCSVImport */,
+				C49D8BC61927C80300207F1C /* SimpleCSVImportTests */,
+				C49D8B971927C80300207F1C /* Frameworks */,
+				C49D8B961927C80300207F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49D8B961927C80300207F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8B951927C80300207F1C /* SimpleCSVImport.app */,
+				C49D8BBE1927C80300207F1C /* SimpleCSVImportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49D8B971927C80300207F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8B981927C80300207F1C /* Foundation.framework */,
+				C49D8B9A1927C80300207F1C /* CoreGraphics.framework */,
+				C49D8B9C1927C80300207F1C /* UIKit.framework */,
+				C49D8B9E1927C80300207F1C /* CoreData.framework */,
+				C49D8BBF1927C80300207F1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49D8BA01927C80300207F1C /* SimpleCSVImport */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8BD91928153600207F1C /* KababishMenu.csv */,
+				C49D8C231929913F00207F1C /* KababishServerMenu.csv */,
+				C49D8BD61928150E00207F1C /* NSString+ParsingExtensions.h */,
+				C49D8BD71928150E00207F1C /* NSString+ParsingExtensions.m */,
+				C49D8BA91927C80300207F1C /* MHSAppDelegate.h */,
+				C49D8BAA1927C80300207F1C /* MHSAppDelegate.m */,
+				C49D8BAC1927C80300207F1C /* Main.storyboard */,
+				C49D8BB21927C80300207F1C /* MHSMasterViewController.h */,
+				C49D8BB31927C80300207F1C /* MHSMasterViewController.m */,
+				C49D8BB51927C80300207F1C /* MHSDetailViewController.h */,
+				C49D8BB61927C80300207F1C /* MHSDetailViewController.m */,
+				C49D8BB81927C80300207F1C /* Images.xcassets */,
+				C49D8BAF1927C80300207F1C /* SimpleCSVImport.xcdatamodeld */,
+				C49D8BA11927C80300207F1C /* Supporting Files */,
+			);
+			path = SimpleCSVImport;
+			sourceTree = "<group>";
+		};
+		C49D8BA11927C80300207F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8BA21927C80300207F1C /* SimpleCSVImport-Info.plist */,
+				C49D8BA31927C80300207F1C /* InfoPlist.strings */,
+				C49D8BA61927C80300207F1C /* main.m */,
+				C49D8BA81927C80300207F1C /* SimpleCSVImport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49D8BC61927C80300207F1C /* SimpleCSVImportTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8BCC1927C80300207F1C /* SimpleCSVImportTests.m */,
+				C49D8BC71927C80300207F1C /* Supporting Files */,
+			);
+			path = SimpleCSVImportTests;
+			sourceTree = "<group>";
+		};
+		C49D8BC71927C80300207F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8BC81927C80300207F1C /* SimpleCSVImportTests-Info.plist */,
+				C49D8BC91927C80300207F1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49D8B941927C80300207F1C /* SimpleCSVImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D8BD01927C80300207F1C /* Build configuration list for PBXNativeTarget "SimpleCSVImport" */;
+			buildPhases = (
+				C49D8B911927C80300207F1C /* Sources */,
+				C49D8B921927C80300207F1C /* Frameworks */,
+				C49D8B931927C80300207F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCSVImport;
+			productName = SimpleCSVImport;
+			productReference = C49D8B951927C80300207F1C /* SimpleCSVImport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49D8BBD1927C80300207F1C /* SimpleCSVImportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D8BD31927C80300207F1C /* Build configuration list for PBXNativeTarget "SimpleCSVImportTests" */;
+			buildPhases = (
+				C49D8BBA1927C80300207F1C /* Sources */,
+				C49D8BBB1927C80300207F1C /* Frameworks */,
+				C49D8BBC1927C80300207F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D8BC51927C80300207F1C /* PBXTargetDependency */,
+			);
+			name = SimpleCSVImportTests;
+			productName = SimpleCSVImportTests;
+			productReference = C49D8BBE1927C80300207F1C /* SimpleCSVImportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49D8B8D1927C80300207F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MHS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maher Suboh";
+				TargetAttributes = {
+					C49D8BBD1927C80300207F1C = {
+						TestTargetID = C49D8B941927C80300207F1C;
+					};
+				};
+			};
+			buildConfigurationList = C49D8B901927C80300207F1C /* Build configuration list for PBXProject "SimpleCSVImport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49D8B8C1927C80300207F1C;
+			productRefGroup = C49D8B961927C80300207F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49D8B941927C80300207F1C /* SimpleCSVImport */,
+				C49D8BBD1927C80300207F1C /* SimpleCSVImportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49D8B931927C80300207F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8BB91927C80300207F1C /* Images.xcassets in Resources */,
+				C49D8BA51927C80300207F1C /* InfoPlist.strings in Resources */,
+				C49D8C241929913F00207F1C /* KababishServerMenu.csv in Resources */,
+				C49D8BDA1928153600207F1C /* KababishMenu.csv in Resources */,
+				C49D8BAE1927C80300207F1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8BBC1927C80300207F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8BCB1927C80300207F1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49D8B911927C80300207F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8BD81928150E00207F1C /* NSString+ParsingExtensions.m in Sources */,
+				C49D8BB11927C80300207F1C /* SimpleCSVImport.xcdatamodeld in Sources */,
+				C49D8BB71927C80300207F1C /* MHSDetailViewController.m in Sources */,
+				C49D8BA71927C80300207F1C /* main.m in Sources */,
+				C49D8BAB1927C80300207F1C /* MHSAppDelegate.m in Sources */,
+				C49D8BB41927C80300207F1C /* MHSMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8BBA1927C80300207F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8BCD1927C80300207F1C /* SimpleCSVImportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49D8BC51927C80300207F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D8B941927C80300207F1C /* SimpleCSVImport */;
+			targetProxy = C49D8BC41927C80300207F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49D8BA31927C80300207F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8BA41927C80300207F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C49D8BAC1927C80300207F1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8BAD1927C80300207F1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49D8BC91927C80300207F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8BCA1927C80300207F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49D8BCE1927C80300207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49D8BCF1927C80300207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49D8BD11927C80300207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCSVImport/SimpleCSVImport-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCSVImport/SimpleCSVImport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C49D8BD21927C80300207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCSVImport/SimpleCSVImport-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCSVImport/SimpleCSVImport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C49D8BD41927C80300207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleCSVImport.app/SimpleCSVImport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCSVImport/SimpleCSVImport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleCSVImportTests/SimpleCSVImportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C49D8BD51927C80300207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleCSVImport.app/SimpleCSVImport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCSVImport/SimpleCSVImport-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCSVImportTests/SimpleCSVImportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49D8B901927C80300207F1C /* Build configuration list for PBXProject "SimpleCSVImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8BCE1927C80300207F1C /* Debug */,
+				C49D8BCF1927C80300207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D8BD01927C80300207F1C /* Build configuration list for PBXNativeTarget "SimpleCSVImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8BD11927C80300207F1C /* Debug */,
+				C49D8BD21927C80300207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D8BD31927C80300207F1C /* Build configuration list for PBXNativeTarget "SimpleCSVImportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8BD41927C80300207F1C /* Debug */,
+				C49D8BD51927C80300207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C49D8BAF1927C80300207F1C /* SimpleCSVImport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C49D8BB01927C80300207F1C /* SimpleCSVImport.xcdatamodel */,
+			);
+			currentVersion = C49D8BB01927C80300207F1C /* SimpleCSVImport.xcdatamodel */;
+			path = SimpleCSVImport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C49D8B8D1927C80300207F1C /* Project object */;
+}
